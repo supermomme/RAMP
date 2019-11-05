@@ -1,0 +1,27 @@
+{
+  "name": "ramp.js",
+  "version": "1.0.0",
+  "description": "A library that manage interpolation beetween values.",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermomme/RAMP.git"
+  },
+  "keywords": [
+    "interpolation",
+    "libary",
+    "ramp"
+  ],
+  "author": "Momme Jürgensen <momme@juergensen.me>",
+  "license": "GNU GPL",
+  "bugs": {
+    "url": "https://github.com/supermomme/RAMP/issues"
+  },
+  "homepage": "https://github.com/supermomme/RAMP#readme"
+}

@@ -1,20 +1,11 @@
 # RAMP
-Arduino Interpolation Library
+NodeJS Interpolation Library
 
 ## New objects
 
-The library add a class template to manage interpolation beetween values of various data types.  
+The library add a class template to manage interpolation beetween values of various data types.
 
-* **ramp** default ramp object for "byte" interpolation
-* **rampByte** ramp object for "byte" interpolation
-* **rampUnsignedChar** ramp object for "unsigned char" interpolation
-* **rampChar** ramp object for "char" interpolation
-* **rampInt** ramp object for "int" interpolation
-* **rampUnsignedInt** ramp object for "unsigned int" interpolation
-* **rampLong** ramp object for "long" interpolation
-* **rampUnsignedLong** ramp object for "unsigned long" interpolation
-* **rampFloat** ramp object for "float" interpolation
-* **rampDouble** ramp object for "doubl" interpolation
+* **rampNumber** ramp object for "number" interpolation
 
 ## Methods
 
@@ -36,7 +27,7 @@ The library add a class template to manage interpolation beetween values of vari
 
 First you need to instanciate the object as a global variable :
 
-	ramp myRamp;
+	let myRamp = new Ramp();
 
 Then you need to a new value to reach : 
 
@@ -89,3 +80,6 @@ At least you'll need to update to get the actual interpolation value :
 * **ONCEBACKWARD**
 * **LOOPBACKWARD**
 * **BACKANDFORTH**
+
+## Disclaimer
+This Libary is just translated from (RAMP)[https://github.com/siteswapjuggler/RAMP]. I will merge updates from that Libary into this Libary. But i am not an expert at this topic. Have fun :)
