@@ -57,7 +57,7 @@ module.exports = class RAMP {
     this.dur = _dur
     this.t = new Date().getTime()
     
-    if (_loop === 'LOOPBACKWARD' || _loop === 'BACKANDFORTH') {
+    if (_loop === 'ONCEFORWARD' || _loop === 'LOOPFORWARD' || _loop === 'FORTHANDBACK') {
       this.pos   = 0
       this.speed = 'FORWARD'
     }

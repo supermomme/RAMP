@@ -81,5 +81,5 @@ At least you'll need to update to get the actual interpolation value :
 * **LOOPBACKWARD**
 * **BACKANDFORTH**
 
-## Disclaimer
-This Libary is just translated from (RAMP)[https://github.com/siteswapjuggler/RAMP]. I will merge updates from that Libary into this Libary. But i am not an expert at this topic. Have fun :)
+# Disclaimer
+This Libary is just translated from [RAMP for Arduino (siteswapjuggler)](https://github.com/siteswapjuggler/RAMP). I will merge updates from that Libary into this Libary. But i am not an expert at this topic. Have fun :)

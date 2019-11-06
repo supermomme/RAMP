@@ -1,9 +1,8 @@
 let Ramp = require('../src')
 
-let ramp = new Ramp()
-ramp.go(255, 1000)
+let ramp = new Ramp(255)
+ramp.go(1, 10000, 'LINEAR', 'ONCEFORWARD')
 
 setInterval(() => {
   console.log(ramp.update())
 }, 100)
-console.log(ramp)

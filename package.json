@@ -1,6 +1,6 @@
 {
   "name": "ramp.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that manage interpolation beetween values.",
   "main": "src/index.js",
   "directories": {
@@ -19,7 +19,7 @@
     "ramp"
   ],
   "author": "Momme Jürgensen <momme@juergensen.me>",
-  "license": "GNU GPL",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/supermomme/RAMP/issues"
   },
