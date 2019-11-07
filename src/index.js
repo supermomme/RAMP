@@ -54,6 +54,11 @@ module.exports = class RAMP {
     }
     this.loop = _loop
     this.paused = false
+
+    if (this.mode === 'NONE') {
+      this.val = this.B;
+    }
+
     return this.val
   }
 
