@@ -37,20 +37,7 @@ module.exports = class RAMP {
     return this.B
   }
 
-  go(_val) {
-    this.val = _val
-    return this.go(_val, 0, 'NONE')
-  }
-
-  go(_val, _dur) {
-    return this.go(_val, _dur, 'LINEAR')
-  }
-
-  go(_val, _dur, _mode) {
-    return this.go(_val, _dur, _mode, 'ONCEFORWARD')
-  }
-
-  go(_val, _dur, _mode, _loop) {
+  go(_val, _dur = 0, _mode = 'NONE', _loop = 'ONCEFORWARD') {
     this.A = this.val
     this.B = _val
     this.mode = _mode
@@ -81,7 +68,7 @@ module.exports = class RAMP {
       doUpdate = delta > this.grain;
     }
     
-    if (this.mode != 'NONE' && doUpdate) {
+    if (doUpdate) {
 
       this.t = newTime;
       if (!this.paused) {
